@@ -1,2 +1,9 @@
-
+<?php
+$name = 'dhd';
+function take_name($name)
+{
+    echo $name. rand(6, 15);
+}
+take_name($name);
+>
 
